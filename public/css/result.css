@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffcc99, #ffdfb3);
+    margin: 10;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ff7f00;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+#smallTitle {
+    color: gray;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#logout {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 10%;
+}
+
+#logout:hover {
+    background: linear-gradient(to bottom, #ff6600, #ff3300);
+}
+
+#tittleQuestion {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#errmsg {
+    color: red;
+}
